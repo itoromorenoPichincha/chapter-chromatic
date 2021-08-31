@@ -21,7 +21,7 @@ export class Button implements ComponentInterface {
     | 'secondary'
     | 'complementary'
     | 'tertiary'
-    | 'destructive' = 'primary'
+    | 'destructive' = 'tertiary'
   @Prop() public disabled: boolean = false
   @Prop() public href: string
   @Prop() public idelement: string
